@@ -1,0 +1,79 @@
+body {
+  background: #20262E;
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+#app {
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  transition: all 0.2s;
+}
+
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: cursive;
+}
+
+
+input {
+  margin-right: 5px;
+}
+
+.header {
+  text-align: center;
+}
+
+.startBox {
+  background: #d98cb3;
+  height: auto;
+  width: auto;
+  padding: 20px;
+}
+
+.startBox img {
+    width: 50px;
+    height: 50px;
+    margin: 4% 0 0 40%;
+}
+
+.startBox button {
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 4%;
+}
+
+.rowDiv {
+   height: 40px;
+   border: 1px solid;
+}
+
+.mushroom {
+   height: 40px;
+   border: 1px solid;
+   width: 40px;
+   display: inline-block;
+   background-repeat: no-repeat;
+   background-size: 40px;
+   background-image: url("https://www.iconexperience.com/_img/v_collection_png/256x256/shadow/mushroom.png");
+}
+
+.mario {
+   height: 40px;
+   border: 1px solid;
+   width: 40px;
+   display: inline-block;
+   background-repeat: no-repeat;
+   background-size: 38px;
+   background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/MarioNSMBUDeluxe.png/220px-MarioNSMBUDeluxe.png");
+}
+
+.emptyBox {
+   height: 40px;
+   border: 1px solid;
+   width: 40px;
+   display: inline-block;
+}
